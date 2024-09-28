@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    /* background-color: rgb(167, 180, 204); */
+    background: url(images/backround.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 10px;
+    /* margin: 100px 200px; */
+    position: relative;
+    height: 100vh;
+}
+
+.heading{
+    color: orangered;
+    
+}
+
+input[type="text"]{
+    margin-top: 8px;
+    height: 3rem;
+    width: 280px;
+    border-radius: 8px;
+    border: 2px solid #e7e7e9;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    background-color: #fff;
+    color: #495057;
+    border-color: darkorange;
+    outline: 0;
+    box-shadow: 0 0 0 0 2rem rgb(0, 123, 255,25%);
+}
+
+input[type="button"]{
+    background-color: darkorange;
+    height: 3.2rem;
+    width: 200px;
+    color: cornsilk;
+    font-size: 1.1rem;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.result{
+    /* color: cornsilk; */
+    color: #000000;
+}
+
+.temps{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 15%;
+    color: cornsilk;
+}
+
+#temp{
+    text-decoration: underline white 5px;
+}
+
+#min-temp{
+    text-decoration: underline white 5px;
+}
+ #max-temp{
+    text-decoration: underline white 5px;
+ }
+
+.contry{
+    position: absolute;
+    top: 5%;
+    color: cornsilk;
+}
+.wind{
+    color: cornsilk;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+}
+
+/* #city-name{
+    margin-top: 30px;
+}
+#weather-type{
+    margin-top: 30px;
+} */
